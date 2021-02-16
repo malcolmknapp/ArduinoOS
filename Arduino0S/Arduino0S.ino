@@ -181,6 +181,7 @@ void parseCommand (String cmd) {
       if(cmdBody.equals("TIMER")) {
         Serial.println ("We testing the timer ");
       }
+  }
       
     if(cmdType.equals("READ")) {
     Serial.println ("This is a test");
